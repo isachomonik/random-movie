@@ -1,18 +1,37 @@
-div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+#title, #container{
+    border: 1px solid black;
+}
+#title h1, p{
+    margin: 0.75rem;
+}
+ #container {
+     margin-top: 2px
+
+ }
+
+ #container h2{
+    margin: 0.75rem;
+    
 }
 
-button {
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(255, 127, 217);
-}
+ #GenButton {
+     margin: 50px;
+ }
 
-button h1{
-    display: flex;
-    align-items: center;
+ #output {
+     display: flex;
+     margin: 2px;
+     
+     height: 400px;
+ }
+
+ #image {
+     width: 3.2rem;
+     height: 6.2rem;
+    border: 1px solid black;
+ }
+ #sinopse {
+    width: 3.2rem;
+    height: 6.2rem;
+   border: 1px solid black;
 }

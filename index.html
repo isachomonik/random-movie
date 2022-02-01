@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Movie Picker</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
 
-<body>
-    <div class="movies">
-        <input type="file" name="movies" id="movieList">
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+
+  <header>
+    <div id="title">
+      <h1>Random Movie Picker</h1>
+      <p>Made with <3 by Isac Homonik</p>
     </div>
 
-    <button type="randomMovie" onclick="generateMovie()" title="Generate">
-        <h1>Generate Movie</h1>    
-    </button>
+    
+  </header>
 
+  <body>
+    <div id="container">
+      <div>
+        <h2>
+          Click to pick a random movie from the 100 best movies of all time
+        </h2>
+      </div>
+
+      <div id="GenButton">
+        <button type="randomMovie" onclick="generateMovie()" title="Generate">
+          <h1>Pick Movie</h1>
+        </button>
+      </div>
+      <div id="output">
+        <div id="image"></div>
+        <div id="sinopse"></div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
