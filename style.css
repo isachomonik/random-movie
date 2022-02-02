@@ -1,37 +1,54 @@
-#title, #container{
-    border: 1px solid black;
+#title, #container, img{
+     text-align: center;
+     border: 1px solid black;
 }
 #title h1, p{
-    margin: 0.75rem;
+     margin: 0.75rem;
 }
  #container {
-     margin-top: 2px
-
+     height: 100%;
+     width: 100%;
+     margin-top: 2px;
+     
+     justify-content: center;
  }
-
- #container h2{
-    margin: 0.75rem;
-    
-}
-
- #GenButton {
-     margin: 50px;
+ 
+ button {
+    padding: 10px;  
  }
 
  #output {
+     height: 100%;
+     width: 100%;
+ }
+
+ #movieInfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+   
+    
+ }
+
+ #movie{
      display: flex;
-     margin: 2px;
-     
-     height: 400px;
+     margin: auto;
+     /* margin-top: 40px; */
+     justify-content: space-evenly;
+     height: 50%;
+     width: 50%;
  }
 
  #image {
-     width: 3.2rem;
-     height: 6.2rem;
-    border: 1px solid black;
+     
+     width: 50%;
+     height: 50%;
+     margin: 20px;
+    
  }
  #sinopse {
-    width: 3.2rem;
-    height: 6.2rem;
-   border: 1px solid black;
+     margin: 20px;
+     width: 50%;
+     height: 50%;
+
 }
